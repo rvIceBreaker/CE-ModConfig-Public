@@ -26,6 +26,6 @@ It is expected that outdated mods will simply lack newer features or controls, b
 
 ## Dependency handling
 
-If users do not have ModConfig installed, your mod is not negatively affected, and you can continue to use your existing solutions to end-user configuration in addition to ModConfig if you choose.
+If users do not have ModConfig installed, your mod is not negatively affected, and you can continue to use your existing solutions for end-user configuration in addition to ModConfig if you choose.
 
 ModConfig's dependencies are built to be light-weight and transparent. There are no special data types, structs, enumerations, or objects.
