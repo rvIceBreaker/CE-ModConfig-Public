@@ -1,39 +1,22 @@
 # CE-ModConfig-Public
 Implementation files and help info for using ModConfig in Conan Exiles
 
+### ModConfig is currently work-in-progress and invite-only
+
 ## What is ModConfig?
 
-ModConfig provides a framework for mods to expose settings to end-users.
+ModConfig provides a unified settings menu and workflow for mod developers to provide user configuration.
 
-Mod authors have the ability to define and handle client-side settings or server-side settings in a simple way, without requiring a ton of additional work.
+For players, ModConfig is built to be aesthetically consistent with Conan Exiles and provide a solid set of features that don't lack of functionality. Care is taken to ensure features such as controller support, server admin settings, and more work as you expect.
+
+For mod developers, ModConfig is built to be lightweight and require minimal dependencies. It provides a toolkit of easy modifications to your existing projects that are built to be simple, straight forward, flexible and feature-complete.
 
 ## Features
 
 * Define your settings using standardized controls, in a consolidated configuration window for users
-* Handle changes to client-side and server-side settings without setting up RPC events
+* Handle changes to client-side and server-side settings without worrying about RPC events
 * Integrate with or replace your existing configuration solutions
 * Minimal project dependencies, minimal bloat in your project
-
-### For Users
-ModConfig provides a clean, friendly panel to tweak the settings of mods that you use. For users, it focuses on being easy to use, and integrating into Conan Exiles as if this functionality was built in.
-
-You can tweak settings for either your local client or server-side settings in a unified window, using standard controls that fit into the rest of the Conan Exiles UI/UX.
-
-### For Developers
-For developers, ModConfig maintains a focus on keeping control in the hands of mod authors, as well as being lightweight and easy to integrate into existing projects.
-
-You can intuitively define settings and their associated controls, and capture changes by end-users
-
-* Get/Set functions are provided by a single interface object
-* Procedurally define your settings structure (both client and server) in one function call
-* Control how settings and their values are exposed and displayed to the end-user
-
-ModConfig tries to simplify the process for you without taking away control
-
-* Client-server RPC calls are handled internally to pass along client-to-server settings changes
-* All UI functionality is stored inside ModConfig
-* Changes to server-side settings are pre-validated, but can be validated by your mod as well
-* Settings changes make no assumptions about how you serialize your data, and can be integrated into existing schemes
 
 ## Revision handling
 
