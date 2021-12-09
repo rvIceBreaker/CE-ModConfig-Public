@@ -1,6 +1,8 @@
 # CE-ModConfig-Public
 Implementation files and help info for using ModConfig in Conan Exiles
 
+![](https://github.com/rvIceBreaker/CE-ModConfig-Public/blob/main/help/img/readme_preview1.png)
+
 ### ModConfig is currently work-in-progress and invite-only
 
 ## What is ModConfig?
