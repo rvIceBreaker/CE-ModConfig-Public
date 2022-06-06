@@ -13,7 +13,7 @@ For players, ModConfig is built to be aesthetically consistent with Conan Exiles
 
 For mod developers, ModConfig is built to be lightweight and require minimal dependencies. It provides a toolkit for your existing projects that is built to be simple, straight forward, flexible and feature-complete.
 
-[Find the Workshop download here](https://steamcommunity.com/linkfilter/?url=https://github.com/rvIceBreaker/CE-ModConfig-Public)
+[Find the Workshop download here](https://steamcommunity.com/sharedfiles/filedetails/?id=2677532812)
 
 ## Features
 
